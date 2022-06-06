@@ -3,32 +3,14 @@ import "./style.css";
 import Header from './component/Header'
 import Category from './component/Category'
 import object from "./categoryobject";
-
+import Card from "./component/Card"
 
  function App() {
-  let headerArr = object.map((ele)=>{
-    console.log(ele)
-    return(
-      <>
-     <Category info={ele} />  
-      </>
-    )
-  
-
-  })
-
-
-
-
-
-
-
-
-
   return (
     <div>
       <Header/>
-      {headerArr}
+      {/* <Category/> */}
+      <Card/>
    
       
     </div>

@@ -7,7 +7,7 @@ export default function Category({info}){
   return(
  
  <>
- <Card/>
+ hello im category
 
 
 
@@ -15,16 +15,3 @@ export default function Category({info}){
   );
   }
 
-
-  function Card(){
-    return(
-      <div className="main2">
-    <div className="main1">
-<div className="main">
-  
-  hello
-  </div>
-</div>
-</div>
-    )
-  }
